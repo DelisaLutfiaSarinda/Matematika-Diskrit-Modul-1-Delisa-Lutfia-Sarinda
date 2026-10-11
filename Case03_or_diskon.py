@@ -20,13 +20,3 @@ if diskon:
 else:
     print("Tidak mendapat diskon")
 
-#Pengujian 3
-member = True
-voucher = False
-
-diskon = member or voucher
-
-if diskon:
-    print("Mendapat diskon")
-else:
-    print("Tidak mendapat diskon")
