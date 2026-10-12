@@ -18,11 +18,11 @@ else:
     print("Peserta tidak mendapat prioritas")
 
 #Pengujian 2
-aktif = False
-nilai_memenuhi = False
-prasyarat = False
-pengalaman = False
-sertifikat = False
+aktif = True
+nilai_memenuhi = True
+prasyarat = True
+pengalaman = True
+sertifikat = True
 # Model logika
 lulus = aktif and nilai_memenuhi and prasyarat
 prioritas = pengalaman or sertifikat
@@ -133,7 +133,7 @@ else:
 
 #Pengujian 8
 aktif = False
-nilai_memenuhi = False
+nilai_memenuhi = True
 prasyarat = True
 pengalaman = False
 sertifikat = False
